@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> E-Commerce </title>
+</head>
+<body background ="C:\Users\Admin\Downloads\Ecommerce website\123.jpeg">
+    <h2>Business Registration Form</h2>
+<marquee bg color="green" direction="left">Please Fill in the Form Below</marquee>
+    <form align = "center">
+        <p>
+            Business Name:<br>
+            <input type="text" name="Santura Business Centre" required>
+        </p>
+
+        <p>
+            Email Address:<br>
+            <input type="email" name="email" required>
+        </p>
+
+        <p>
+            Country of Origin:<br>
+            <select name="country">
+                <option value="Kenya">Kenya</option>
+                <option value="Uganda">Uganda</option>
+                <option value="Tanzania">Tanzania</option>
+                <option value="Other">Other</option>
+            </select>
+        </p>
+
+        <p>
+            Password:<br>
+            <input type="password" name="password" required>
+        </p>
+
+        <button type="submit">Register</button>
+    </form>
+
+</body>
+</html>
